@@ -29,7 +29,7 @@ jobs:
       - name: Create dist directory and copy files to root
         run: |
           mkdir -p dist
-          cp -r vpnhelp/.vitepress/dist/* dist/
+          cp -r help/.vitepress/dist/* dist/
       - uses: actions/upload-pages-artifact@v1
         with:
           path: dist 
